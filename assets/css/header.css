@@ -1,0 +1,94 @@
+@import url("/assets/public/fonts/font.css");
+/* header {
+  height: 100%;
+  height: auto;
+  background: #2840ea;
+  font-family: AppleSDGothicNeoM;
+}
+header .heainner {
+  display: flex;
+}
+header .heainner .homeicon {
+  background-image: url(/assets/images/header.png);
+} */
+/* header .container {
+  width: calc(100% - 626px);
+  height: auto;
+  margin: 0 auto;
+}
+header .container .heainner {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  position: relative;
+}
+header .container .heainner .homeicon {
+  background-image: url(/assets/images/header.png);
+  width: 23px;
+  height: 21px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+header .container .heainner .login {
+  display: flex;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  gap: 45px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+header .container .heainner .login::before {
+  content: "";
+  width: 1px;
+  height: 17px;
+  background-color: #fff;
+  position: absolute;
+  right: 55%;
+} */
+header {
+  width: 100%;
+  height: auto;
+  background: #2840ea;
+  font-family: AppleSDGothicNeoM;
+}
+header .heainner {
+  display: flex;
+}
+
+header .heainner {
+  padding-top: 0.8333vw;
+  padding-bottom: 0.7639vw;
+  display: flex;
+  position: relative;
+}
+header .heainner .homeicon {
+  background-image: url(/assets/images/header.png);
+  width: 1.5972vw;
+  height: 1.4583vw;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: 10.6667vw;
+}
+header .heainner .login {
+  position: absolute;
+  right: 0;
+  gap: 3.125vw;
+  align-items: center;
+  font-size: 1.1111vw;
+  display: flex;
+  color: #fff;
+  margin-right: 10.6667vw;
+}
+header .heainner .login::before {
+  width: 0.0694vw;
+  height: 1.1806vw;
+  right: 55%;
+  content: "";
+  background-color: #fff;
+  position: absolute;
+}

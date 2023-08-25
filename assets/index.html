@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+          <div class="heainner">
+            <div class="homeicon">
+              <a href="#"></a>
+            </div>
+            <div class="login">
+              <div><a href="#">로그인</a></div>
+              <div><a href="#">회원가입</a></div>
+            </div>
+          </div>
+      </header>
+      <nav>
+          <div class="nav">
+            <div class="nav_logo"></div>
+            <div class="gnb">
+              <div class="click"><a href="#">주요기능</a></div>
+              <div><a href="#">MY페이지</a></div>
+              <div><a href="#">공고 달력</a></div>
+              <div><a href="#">인재 검색</a></div>
+            </div>
+            <button type="submit">공고 등록</button>            <div class="register">
+
+            </div>
+          </div>
+      </nav>
+      <section id="section1">
+        <div class="container">
+          <div class="main_text">
+            <h1>
+              기업과 
+              <span class="text">
+                시니어의
+              </span>
+              
+              커넥트를 위한<br /> 기업<span class="point"></span> 크라우드 소싱
+            </h1>
+            <p>
+              기업클라우드 소싱으로 외주비용은 절감하고,<br />
+              시니어와의 간편한 실무작업을 시작하세요!
+            </p>
+          </div>
+          <div class="main_se">
+            <div class="ma_regi">
+              <a href="#">공고등록</a>
+            </div>
+            <div class="ma_search">
+              <a href="#">인재검색</a>
+            </div>
+          </div>
+          <div class="how">
+            <p>
+              <a href="#">공고등록, 이렇게 할 수 있어요</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="section2">
+        <div class="container">
+          <div class="description">
+            <video class="video" loop="true" autoplay muted controls>
+              <source type="video/mp4" src="./video/video.mp4" />
+            </video>
+            <div class="desc">
+              <h2>
+                플랫폼 업로드 방법<br />
+                및 주요 기능 설명
+              </h2>
+              <p>플랫폼을 잘 사용하는 방법은 첫번째</p>
+              <p>플랫폼을 잘 사용하는 방법은 첫번째</p>
+              <p>플랫폼을 잘 사용하는 방법은 첫번째</p>
+              <p>플랫폼을 잘 사용하는 방법은 첫번째</p>
+              <p>플랫폼을 잘 사용하는 방법은 첫번째</p>
+              <p>플랫폼을 잘 사용하는 방법은 첫번째</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+          </div>
+        </div>
+      </section>
+      <section id="section3">
+        <div class="container">
+          <h1>사회적 약자에 대한 의견 수집</h1>
+          <h3>빅데이터를 활용한 기업 증가 &빅데이터 기반의 국력 향상 설명</h3>
+          <p>
+            설명이 들어갈 자리입니다설명이 들어갈 자리입니다설명이 들어갈
+            자리입니다
+          </p>
+          <p>
+            설명이 들어갈 자리입니다설명이 들어갈 자리입니다설명이 들어갈
+            자리입니다
+          </p>
+          <p>
+            설명이 들어갈 자리입니다설명이 들어갈 자리입니다설명이 들어갈
+            자리입니다
+          </p>
+        </div>
+      </section>
+      <footer>
+        <div class="footer__cont">
+          <div class="title">
+            <div class="desc"><a href="#">회사소개</a></div>
+            <div class="desc"><a href="#">인재채용</a></div>
+            <div class="desc"><a href="#">회원약관</a></div>
+            <div class="desc"><a href="#">개인정보처리방침</a></div>
+            <div class="desc"><a href="#">채용정보 API</a></div>
+            <div class="desc"><a href="#">제휴문의</a></div>
+            <div class="desc"><a href="#">고객센터</a></div>
+          </div>
+          <div class="contact">
+            <div class="inner">OO 고객센터 02-1544-1566 (평일 09:00 ~ 18:00, 주말공휴일 휴무)
+            </div>
+            <div class="inner"><a href="mailto:"korea@korea.com">이메일 : korea@korea.com</a></div>
+            <div class="inner"><a href="#">FAX 02-1578-1500</a></div>
+          </div>
+          <div class="info">
+              <div class="chat"><a href="#">OO공식 SNS공식 채널 </a></div>
+              <div class="chat"><a href="#">문의 사항 챗봇(24시간) </a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const btnArr = document.querySelectorAll('.click');
+    
+        for (let i = 0; i < btnArr.length; i++) {
+          btnArr[i].addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#section' + (i + 2)).scrollIntoView({ behavior: 'smooth' });
+          });
+        }
+      });
+    </script>
+    
+    <script>
+      const $text = document.querySelector(".main_text .text");
+    
+      // 글자 모음
+      const letters = [
+        "고령자의", 
+        "장애인의",
+        "시니어의",
+      ];
+    
+      // 글자 입력 속도
+      const speed = 100;
+      let i = 0; // 초기에 0으로 설정
+    
+      // 타이핑 효과
+      const typing = async () => {  
+    
+        const letter = letters[i];
+        i++;
+        if (i >= letters.length){
+          i = 0;
+        }
+    
+        $text.innerHTML = letter;
+    
+        // 텍스트 나타내는 애니메이션
+        $text.style.opacity = 1;
+    
+        await wait(950);
+    
+        remove();
+      }
+    
+      // 글자 지우는 효과
+      const remove = async () => {
+        // 텍스트 사라지는 애니메이션
+        $text.style.opacity = 0;
+    
+        await wait(950);
+        typing();
+      };
+    
+      // 딜레이 기능 ( 밀리초 )
+      function wait(ms) {
+        return new Promise(res => setTimeout(res, ms))
+      }
+    
+      // 초기 실행
+      setTimeout(remove, 1700);
+    </script>
+    
+    
+  </body>
+</html>

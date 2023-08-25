@@ -1,0 +1,196 @@
+/* @import url("/assets/public/fonts/font.css");
+
+#section1 {
+  width: 100%;
+  height: auto;
+  background-color: #f9f9fb;
+  font-family: AppleSDGothicNeoL;
+}
+#section1 .container {
+  width: 50vw;
+  margin: 0 auto;
+  height: inherit;
+  background: #000;
+}
+#section1 .container .main_text h1 {
+  font-size: 58px;
+  text-align: center;
+  color: #434343;
+  padding-top: 132px;
+}
+#section1 .container .main_text h1 span {
+  color: #2840ea;
+}
+#section1 .container .main_text p {
+  font-size: 20px;
+  text-align: center;
+  color: #434343;
+  padding-top: 54px;
+}
+#section1 .container .main_se {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 65px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#section1 .container .main_se .ma_regi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 287px;
+  height: 57px;
+  border-radius: 50px;
+  background: #2840ea;
+  font-weight: bold;
+}
+
+#section1 .container .main_se .ma_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 287px;
+  height: 57px;
+  border-radius: 50px;
+  background: #64a3ff;
+  margin-left: 24px;
+}
+#section1 .container .how {
+  padding-top: 30px;
+  text-align: center;
+  color: #64a3ff;
+  position: relative;
+  padding-bottom: 180px;
+}
+#section1 .container .how::after {
+  content: "";
+  width: 6px;
+  height: 5px;
+  border-top: 1px solid #64a3ff;
+  border-right: 1px solid #64a3ff;
+  display: inline-block;
+  transform: rotate(50deg);
+  position: absolute;
+  bottom: 8px;
+  right: 37%;
+} */
+
+@import url("/assets/public/fonts/font.css");
+
+#section1 {
+  width: 100%;
+  height: auto;
+  background-color: #f9f9fb;
+  font-family: AppleSDGothicNeoL;
+}
+#section1 .container {
+  width: 50vw;
+  margin: 0 auto;
+  height: inherit;
+}
+#section1 .container .main_text h1 {
+  font-size: 4.0278vw;
+  text-align: center;
+  color: #434343;
+  padding-top: 9.1667vw;
+  position: relative;
+}
+#section1 .container .main_text h1 .text {
+  color: #2840ea;
+  display: inline-block;
+  font-size: 4.0278vw;
+  /* margin-left: 0.6rem; */
+  display: inline-block;
+}
+.main_text .text {
+  opacity: 1; /* 초기에 투명하게 설정 */
+  transition: opacity 0.95s linear; /* 투명도에 대한 트랜지션 설정 */
+}
+#section1 .container .main_text h1 .point {
+  display: inline-block;
+  position: relative;
+  top: 0.3472vw;
+  margin-left: 0.4167vw;
+}
+#section1 .container .main_text h1 .point::after {
+  content: "";
+  background: #ffaa00;
+  width: 1.1111vw;
+  height: 1.1111vw;
+  border-radius: 50%;
+  display: block;
+}
+#section1 .container .main_text p {
+  font-size: 1.3889vw;
+  text-align: center;
+  color: #434343;
+  padding-top: 3.75vw;
+  line-height: 1.6;
+  font-family: AppleSDGothicNeoM;
+}
+#section1 .container .main_se {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4.5139vw;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6667vw;
+}
+
+#section1 .container .main_se .ma_regi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19.9306vw;
+  height: 3.9583vw;
+  border-radius: 3.4722vw;
+  background: #2840ea;
+  font-weight: bold;
+  transition: box-shadow 0.3s ease;
+}
+#section1 .container .main_se .ma_regi:hover {
+  box-shadow: 0px 4px 3px rgba(140, 148, 211, 0.5); /* 호버시 그림자 추가 */
+}
+#section1 .container .main_se .ma_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19.9306vw;
+  height: 3.9583vw;
+  border-radius: 3.4722vw;
+  background: #64a3ff;
+  margin-left: 1.6667vw;
+  transition: box-shadow 0.3s ease;
+}
+#section1 .container .main_se .ma_search:hover {
+  box-shadow: 0px 4px 3px rgba(140, 148, 211, 0.5); /* 호버시 그림자 추가 */
+}
+#section1 .container .how {
+  padding-top: 2.0833vw;
+  text-align: center;
+  color: #64a3ff;
+  padding-bottom: 12.5vw;
+  display: flex;
+  justify-content: center;
+}
+#section1 .container .how a {
+  font-size: 1.1111vw;
+  font-family: AppleSDGothicNeoM;
+}
+#section1 .container .how::after {
+  width: 0.4167vw;
+  height: 0.3472vw;
+  border-top: 0.1094vw solid #64a3ff;
+  border-right: 0.1094vw solid #64a3ff;
+  content: "";
+  transform: rotate(45deg);
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}

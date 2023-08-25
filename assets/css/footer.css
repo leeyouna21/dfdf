@@ -1,0 +1,126 @@
+/* @import url("/assets/public/fonts/font.css");
+
+footer {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  border-top: 2px solid #e7e7e7;
+  font-family: AppleSDGothicNeoL;
+}
+.footer__cont {
+  width: calc(100% - 237px);
+  margin: 0 auto;
+  height: auto;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__cont .title .desc {
+  font-size: 12px;
+  color: #a7a7a7;
+  padding-top: 45px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+.footer__cont .desc:first-child {
+  padding-left: 0;
+}
+.footer__cont .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__cont .contact .inner {
+  font-size: 11px;
+  color: #a7a7a7;
+  border-left: 1px solid #a7a7a7;
+  height: 5px;
+  padding: 0px 10px 10px;
+}
+.footer__cont .contact .inner:first-child {
+  border-left: none;
+}
+.footer__cont .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__cont .info .chat {
+  font-size: 11px;
+  color: #a7a7a7;
+  border-left: 1px solid #a7a7a7;
+  height: 5px;
+  padding: 0px 10px 10px;
+  margin-top: 5px;
+  margin-bottom: 43px;
+}
+.footer__cont .info .chat:first-child {
+  border-left: none;
+} */
+@import url("/assets/public/fonts/font.css");
+
+footer {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  font-family: AppleSDGothicNeoL;
+  right: 0;
+  border-top: 0.1389vw solid #e7e7e7;
+}
+.footer__cont {
+  width: calc(100% - 16.4583vw);
+  margin: 0 auto;
+  height: auto;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__cont .title .desc {
+  font-size: 0.8333vw;
+  color: #a7a7a7;
+  padding-top: 3.125vw;
+  padding-left: 2.0833vw;
+  padding-bottom: 1.0417vw;
+}
+
+.footer__cont .desc:first-child {
+  padding-left: 0;
+}
+.footer__cont .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__cont .contact .inner {
+  font-size: 0.7639vw;
+  color: #a7a7a7;
+  border-left: 0.0694vw solid #a7a7a7;
+  height: 0.3472vw;
+  padding: 0vw 0.6944vw 0.6944vw;
+}
+.footer__cont .contact .inner:first-child {
+  border-left: none;
+}
+.footer__cont .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__cont .info .chat {
+  font-size: 0.7639vw;
+  color: #a7a7a7;
+  border-left: 0.0694vw solid #a7a7a7;
+  height: 0.3472vw;
+  padding: 0vw 0.6944vw 0.6944vw;
+  margin-top: 0.3472vw;
+  margin-bottom: 2.9861vw;
+}
+.footer__cont .info .chat:first-child {
+  border-left: none;
+}

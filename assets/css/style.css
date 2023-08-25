@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 메인의 css */
+@import "header.css";
+@import "nav.css";
+@import "section1.css";
+@import "section2.css";
+@import "section3.css";
+@import "footer.css";
+
+/* 진행중인 index의 css */
+@import "header.css";
+@import "nav.css";
+@import "ingmain.css";
+
+@import "footer.css";
+
+body {
+  width: 100%;
+  height: auto;
+  /* background: #000; */
+}
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

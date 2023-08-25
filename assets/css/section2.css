@@ -1,0 +1,123 @@
+/* @import url("/assets/public/fonts/font.css");
+
+#section2 {
+  width: 100%;
+  font-family: AppleSDGothicNeoL;
+}
+#section2 .container {
+  width: calc(100% - 626px);
+  margin: 0 auto;
+}
+#section2 .container .description {
+  display: flex;
+  padding-top: 138px;
+}
+#section2 .container .description video {
+  width: 564px;
+  height: 351px;
+  background: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#section2 .container .description .desc {
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin-left: 15px;
+}
+#section2 .container .description .desc h2 {
+  font-size: 32px;
+  color: #434343;
+}
+#section2 .container .description .desc p {
+  font-size: 15px;
+  color: #434343;
+  padding-top: 15px;
+}
+#section2 .container .box {
+  display: flex;
+  padding-top: 108px;
+  padding-bottom: 145px;
+}
+#section2 .container .box .box1 {
+  width: 368px;
+  height: 125px;
+  background: #ebdb9a;
+  border-radius: 15px;
+  margin-right: 24px;
+}
+#section2 .container .box .box2 {
+  width: 368px;
+  height: 125px;
+  background: #e9c227;
+  border-radius: 15px;
+  margin-right: 24px;
+}
+#section2 .container .box .box3 {
+  width: 368px;
+  height: 125px;
+  background: #a98700;
+  border-radius: 15px;
+} */
+
+@import url("/assets/public/fonts/font.css");
+
+#section2 {
+  width: 100%;
+  font-family: AppleSDGothicNeoL;
+}
+#section2 .container {
+  width: calc(100% - 43.4722vw);
+  margin: 0 auto;
+}
+#section2 .container .description {
+  padding-top: 9.5833vw;
+  display: flex;
+}
+#section2 .container .description video {
+  width: 32.2222vw;
+  height: 24.375vw;
+  object-fit: cover;
+}
+#section2 .container .description .desc {
+  display: block;
+
+  width: 28.125vw;
+  height: auto;
+  margin-left: 5.8444vw;
+}
+#section2 .container .description .desc h2 {
+  font-size: 2.2222vw;
+  color: #434343;
+  white-space: nowrap;
+}
+#section2 .container .description .desc p {
+  font-size: 1.0417vw;
+  color: #434343;
+  padding-top: 1.0417vw;
+}
+#section2 .container .box {
+  display: flex;
+  padding-top: 7.5vw;
+  padding-bottom: 10.0694vw;
+}
+#section2 .container .box .box1 {
+  width: 25.5556vw;
+  height: 8.6806vw;
+  background: #ebdb9a;
+  border-radius: 1.0417vw;
+  margin-right: 1.6667vw;
+}
+#section2 .container .box .box2 {
+  width: 25.5556vw;
+  height: 8.6806vw;
+  background: #e9c227;
+  border-radius: 1.0417vw;
+  margin-right: 1.6667vw;
+}
+#section2 .container .box .box3 {
+  width: 25.5556vw;
+  height: 8.6806vw;
+  background: #a98700;
+  border-radius: 1.0417vw;
+}
